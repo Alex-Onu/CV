@@ -1,0 +1,215 @@
+/*GENERAL*/
+html{
+    background-color:#C63D0F;
+    font-family: 'Asul', sans-serif;color:#3B3738; font-size: 20px;
+}
+body{
+    background:#fdf3e7;
+    width:80%;
+    height:90%;
+    margin:5% 10% 5% 10%;
+    box-shadow: 10px 10px 4px #7E8F7C;
+}
+ul{
+    list-style: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+li{
+    text-align: left;
+    padding-bottom: 3%;
+}
+footer{
+    text-align: center;
+    margin:5% 10% 5% 10%;
+    width:80%;
+    height:90%;
+    clear:both;
+}
+.title{
+    clear:both;
+    margin: 5% 5% 3% 5%;
+    padding-top:2%;
+    text-shadow: 5px 5px 2px #7E8F7C;
+    width: 90%;
+    height:88%;
+    text-align: center;
+}
+/*CONTINUT*/
+.continut__paragraf-continut{
+    margin: 0% 5% 1% 5%;
+    padding-bottom: 1%;
+	width:90%;
+    height:89;
+}
+/*INFORMATII PERSONALE*/
+#informatii-personale__contact{
+	width:80%;
+    height:100%;
+    margin:0 0 0 0;
+}
+#informatii-personale__imagine:hover{
+    width: 25%;
+}
+#informatii-personale__imagine{
+    width:20%;
+    transition: width 1s linear 1s;
+    box-shadow: 5px 5px 2px #7E8F7C;
+    float:right;
+    position:relative;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+    margin-top: 5%;
+
+}
+.informatii-personale{
+    border:1px solid #7E8F7C;
+    margin:0 25% 0% 25%;
+    border-radius:10px;
+    padding:0.5% 0 0% 0;
+    box-shadow: 5px 5px 2px #7E8F7C;
+}
+.informatii-personale:hover{
+    background-color:#C63D0F;
+}
+/*TITLU PARAGRAF CONTINUT*/
+dt{
+    font-weight:bold;
+    text-align: right;  
+    float: left; 
+    height: 100px;
+    margin: 0% 1% 1% 0%;
+    width:20%;
+    text-shadow: 5px 5px 2px #7E8F7C;
+}
+
+#continut__dt-1{
+    border-right: 1px solid #7E8F7C; 
+    padding: 0 4% 1% 0;
+
+}
+#continut__dt-2{
+    border-right: 1px solid #7E8F7C; 
+    padding: 0 4% 1% 0;
+    
+}
+#continut__dt-3{
+    border-right: 1px solid #7E8F7C; 
+    padding: 0 4% 4% 0;
+    
+}
+#continut__dt-4{
+    border-right: 1px solid #7E8F7C; 
+    padding: 0 4% 21% 0;
+}
+#continut__dt-5{
+    border-right: 1px solid #7E8F7C; 
+    padding: 0 4% 1% 0;
+    
+}
+#continut__dt-6{
+    border-right: 1px solid #7E8F7C; 
+    padding: 0 4% 12% 0;
+    
+}
+/*PARAGRAF CONTINUT*/
+dd{
+    text-align:justify;
+    width: 67%; 
+    float: right; 
+    height: 100%;
+    margin:0 3% 0 0;
+
+}
+/*TABEL*/
+.continut__tabel{
+    margin:1% 5% 1% 5%;
+    box-shadow: 5px 5px 2px #7E8F7C;
+    border:1px solid #3B3738;
+    width:90%;
+    height: 96%;
+    border-radius: 10px;
+}
+.continut__tabel table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+
+}
+.continut__tabel table tr:last-child td:last-child{
+    border-bottom-right-radius:10px;
+}
+.continut__tabel table tr:first-child td:first-child{
+    border-top-left-radius:10px;
+}
+.continut__tabel table tr:first-child td:last-child{
+    border-top-right-radius:10px;
+}
+.continut__tabell tr:last-child td:first-child{
+    border-bottom-left-radius:10px;
+}
+.continut__tabel tr:nth-child(odd){ 
+    background-color:#7E8F7C; 
+}
+.continut__tabell tr:nth-child(even){ 
+    background-color:#fdf3e7; 
+}
+.continut__tabel td{
+    vertical-align:middle;
+    border:1px solid #3B3738;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:10px;
+    font-size:10px;
+    font-weight:normal;
+}
+.continut__tabel tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}
+.continut__tabel tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}
+.continut__tabel tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.continut__tabel tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.continut__tabel tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}
+.continut__tabel tr:first-child td{
+    background-color:#7E8F7C;
+    border:1px solid #3B3738;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:14px;
+    font-weight:bold;
+    color:black;
+}
+/*LVHA FOOTER*/
+a{
+    text-decoration: none;
+}
+a:link{
+    color:#C63D0F;
+}
+a:visited{
+    color:#3B3738;
+}
+a:hover{
+    color:#7E8F7C;
+}
+a:active{
+    color: #3B3738;
+}
+dd.delimitare{
+    float: none; 
+    margin: 0; 
+    height: 15px; 
+}
+.delimitare{
+    clear:both;
+}
